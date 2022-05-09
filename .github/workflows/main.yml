@@ -2,7 +2,7 @@ name: GitHub Action do zbudowania obrazu i umieszczeniu go na DockerHub
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-push-images:
