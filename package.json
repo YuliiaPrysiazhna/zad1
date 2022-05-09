@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-image",
+  "version": "1.0.0",
+  "description": "nodejs image",
+  "author": "Yuliia Prysiazhna",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "request-ip": "^2.1.3"
+  }
+}
