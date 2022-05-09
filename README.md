@@ -58,3 +58,14 @@ oraz polecenie do wykorzystania sterownika:
 `docker buildx build -t juli99murr/zad:zad_amd64 --platform linux/amd64 --push .`
 
 [juli99murr/zad:zad_amd64](https://hub.docker.com/layers/210699146/juli99murr/zad/zad_amd64/images/sha256-cd5bea305791fbd326c2454ba8f5b6259af19787553f7b210f1f4d1a22afdcf3?context=repo)
+
+Dodajemy actions Secrets:
+
+![image](https://user-images.githubusercontent.com/103123474/167491365-d66d369a-6f8c-4155-ba7b-940b11c3ecd5.png)
+
+Oraz access token:
+
+![image](https://user-images.githubusercontent.com/103123474/167491486-91606037-12ee-4c2e-aa96-6b7f8729819b.png)
+
+Na końcu yml plik:
+![image](https://user-images.githubusercontent.com/103123474/167491261-86a7fce5-e630-44b8-a508-78fb567f4afd.png)
